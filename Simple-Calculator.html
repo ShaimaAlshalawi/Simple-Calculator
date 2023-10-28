@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <meta charset="utf-8">
+	    <title>Calculator</title>
+        <style>
+            body{
+                padding-top:1500; text-align: center; width:100%;}
+            div{
+                display: inline-block; padding: 40px ; text-align: center; border:2px solid #727070; width:300px; background-color: #f4f4f4;
+            }
+            input{
+                font-size: 20px; color: #000000; font-weight: bold; height:40px; width:240px;  background-color: #d2d3d4;  border-radius: 10px;
+            }
+            .ACButton{
+                font-size: 22px; height:60px; width:60px; color:#000000; background-color: #a9d8de; border-radius: 10px;
+            }
+            .OpButton{
+                font-size: 22px; height:60px; width:60px; color:#f9f9f9; background-color: #949393; border-radius: 10px;
+            }
+            .NuButton{
+                font-size: 22px; height:60px; width:60px; color:#050505; background-color: #e0e0e0; border-radius: 10px;
+            }
+        </style>
+    </header>
+    <body>
+        <h1>Simple Calculator</h1>
+        <script>
+            // This function clear all the values
+            function clearScreen() {
+            document.getElementById("screen").value = "";
+            }
+
+            // This function display values
+            function display(value) {
+            document.getElementById("screen").value += value;
+            }
+            // This function evaluates the expression and return result
+            function calculate() {
+            var p = document.getElementById("screen").value;
+            var q = eval(p);
+            document.getElementById("screen").value = q;
+            }
+        </script>
+
+        <div>
+            <p> <input type = "text" id = "screen" disabled /> </p>
+            
+            <button type="button" class="NuButton" onclick="display('1')">1</button>
+            <button type="button" class="NuButton" onclick="display('2')">2</button>
+            <button type="button" class="NuButton" onclick="display('3')">3</button>
+            <button type="button" class="ACButton" onclick="clearScreen()">AC</button>
+            <br>
+            <button type="button" class="NuButton" onclick="display('4')">4</button>
+            <button type="button" class="NuButton" onclick="display('5')">5</button>
+            <button type="button" class="NuButton" onclick="display('6')">6</button>
+            <button type="button" class="OpButton" onclick="display('*')">*</button>
+            <br>
+            <button type="button" class="NuButton" onclick="display('7')">7</button>
+            <button type="button" class="NuButton" onclick="display('8')">8</button>
+            <button type="button" class="NuButton" onclick="display('9')">9</button>
+            <button type="button" class="OpButton" onclick="display('/')">/</button>
+            <br>
+            <button type="button" class="NuButton" onclick="display('0')">0</button>
+            <button type="button" class="OpButton" onclick="display('+')">+</button>
+            <button type="button" class="OpButton" onclick="display('-')">-</button>
+            <button type="button" class="OpButton" onclick="calculate()">=</button>            
+            <br>
+            
+            <br>
+        </div>
+        
+        
+        
+    </body>
+</html>
+
