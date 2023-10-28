@@ -1,0 +1,17 @@
+body{
+    padding-top:1500; text-align: center; width:100%;}
+div{
+    display: inline-block; padding: 40px ; text-align: center; border:2px solid #727070; width:300px; background-color: #f4f4f4;
+}
+input{
+    font-size: 20px; color: #000000; font-weight: bold; height:40px; width:240px;  background-color: #d2d3d4;  border-radius: 10px;
+}
+.ACButton{
+    font-size: 22px; height:60px; width:60px; color:#000000; background-color: #a9d8de; border-radius: 10px;
+}
+.OpButton{
+    font-size: 22px; height:60px; width:60px; color:#f9f9f9; background-color: #949393; border-radius: 10px;
+}
+.NuButton{
+    font-size: 22px; height:60px; width:60px; color:#050505; background-color: #e0e0e0; border-radius: 10px;
+}
