@@ -1,7 +1,7 @@
 # Simple Calculator
 A simple calculator built with HTML, CSS, and JavaScript.
 ## Screenshot
-<img width="300" src="https://github.com/ShaimaAlshalawi/Simple-Calculator/assets/121192492/b4b38dce-97f6-47c4-a25b-97189763eb8a"/>
+<img width="300" src="https://github.com/ShaimaAlshalawi/Simple-Calculator/assets/121192492/091ecf4d-204d-459b-b04d-170e8188cdd8"/>
 
 ## How to Install and Run
 ```
