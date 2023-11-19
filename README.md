@@ -12,3 +12,4 @@ git clone https://github.com/ShaimaAlshalawi/Simple-Calculator.git
 A few resources to get you started if this is your first websit project:
 - [Geeksforgeeks](https://www.geeksforgeeks.org/web-development/?ref=shm)
 - [W3schools](https://www.w3schools.com/)
+
